@@ -1,7 +1,7 @@
 var util = require('util');
 var stream = require('stream');
 var lifx = require('lifx');
-lifx.setDebug(true);
+//lifx.setDebug(true);
 
 util.inherits(Driver, stream);
 util.inherits(Bulb, stream);
@@ -52,7 +52,7 @@ function Bulb(bulb, lx) {
 }
 
 Bulb.prototype.write = function(data) {
-  if (typeof data === 'String') {
+  if (typeof data === 'string') {
     data = JSON.parse(data);
   }
 
