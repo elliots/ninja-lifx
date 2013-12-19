@@ -11,7 +11,6 @@
     "url": "https://github.com/elliots/ninja-lifx"
   },
   "dependencies": {
-    "hue.js": "latest",
     "lifx": "git://github.com/magicmonkey/lifxjs.git"
   },
   "author": "Elliot Shepherd",
