@@ -56,8 +56,8 @@ Bulb.prototype.write = function(data) {
     data = JSON.parse(data);
   }
 
-  console.log('Writing to hue', data);
   
   this.lx.lightsColour(data.hue, data.sat*256, data.bri*256, 0x0dac/*TODO*/, data.transitionTime||0, this.bulb);
+  console.log('Writing to lifx', data);
 }
 
