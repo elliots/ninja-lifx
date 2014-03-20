@@ -1,6 +1,6 @@
 {
   "name": "ninja-lifx",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Ninja Blocks Lifx Driver (Mac, Linux)",
   "main": "index.js",
   "scripts": {
